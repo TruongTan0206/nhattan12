@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+*{
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+    cursor: pointer;
+
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    background: #CEE3F6;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+header {
+    text-align: center;
+    padding: 20px 0;
+    background: url(picture/logo.png) ;
+    height: 150px;
+}
+
+nav{
+    background-color:#47bdec;
+    align-items: center;
+    text-align: center;
+
+}
+nav a{
+    display:inline-block;
+    padding:10px;
+    font-size:20px;
+    color:white;
+    text-decoration:none;
+    text-align: center;
+}
+nav a:hover{
+    background-color:#333;
+}
+
+main {
+    flex: 1; 
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+
+.left-column {
+    flex: 4; 
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: justify;
+}
+
+
+.right-column {
+    flex: 2; 
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: justify;
+}
+
+.right-column .img {
+    align-items: center;
+
+}
+
+
+.left-column div, .right-column div {
+    background-color: #f0f0f0;
+    padding: 10px;
+    flex: 1; 
+}
+
+  
+
+footer {
+    background-color:#58ACFA;
+    padding: 20px 0;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .footer-column {
+    width: 33.33%;
+  }
+  
+  .footer-column h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .footer-column p {
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: white;
+  }
+  
+  .footer-column ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .footer-column li {
+    margin-bottom: 3px;
+  }
+  
+  .footer-column a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .footer-bottom {
+    padding-top: 10px;
+    border-top: 1px solid #ccc;
+    text-align: center;
+    font-size: 12px;
+    color: #777;
+  }
+
